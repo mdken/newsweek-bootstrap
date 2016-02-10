@@ -1,0 +1,99 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.nav {
+	color: black;
+	height: 25px;
+	display: block;
+	background-color: black;
+}
+
+#blank {
+	background-color: black;
+	height: 58px;
+}
+
+.headline {
+	font-family: 'times new roman';
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+	background-color: #ffffff;
+	color: #181818;
+	border-top: 4px solid #ff0500;
+	padding: 40px 60px 35px 60px;
+}
+
+.title {
+	font-family: source_sans_problack;
+	font-size: 42px;
+	font-weight: normal;
+	letter-spacing: -0.25px;
+	line-height: 38px;
+	text-align: center;
+	text-transform: uppercase;
+	word-spacing: 0px;
+
+}
+
+li {
+	font-family: source_sans_prosemibold;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 20px;
+	text-decoration: underline;
+	text-align: left;
+	word-spacing: 0px;
+	background-color: #ffffff;
+	color: #181818;
+	height: auto;
+	width: auto;
+	
+
+}
