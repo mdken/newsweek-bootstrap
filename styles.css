@@ -56,7 +56,8 @@ table {
 
 #blank {
 	background-color: black;
-	height: 58px;
+	
+	display: inline-block;
 }
 
 .headline {
@@ -71,7 +72,7 @@ table {
 }
 
 .title {
-	font-family: source_sans_problack;
+	font-family: 'source_sans_problack';
 	font-size: 42px;
 	font-weight: normal;
 	letter-spacing: -0.25px;
@@ -82,8 +83,13 @@ table {
 
 }
 
+ul {
+	list-style-type: square;
+
+}
+
 li {
-	font-family: source_sans_prosemibold;
+	font-family: 'source_sans_prosemibold';
 	font-size: 16px;
 	font-weight: normal;
 	line-height: 20px;
@@ -91,9 +97,22 @@ li {
 	text-align: left;
 	word-spacing: 0px;
 	background-color: #ffffff;
-	color: #181818;
+	color: black;
 	height: auto;
 	width: auto;
-	
+	padding: 15px 15px 15px 19px;
+	border-top: 1px solid #e5e5e5;
 
+}
+
+.brief {
+	font-family: 'playfair_displayregular';
+	font-size: 17px;
+	font-weight: normal;
+	letter-spacing: .25px;
+	line-height: 21px;
+	text-align: center;
+	word-spacing: 0px;
+	color: #181818;
+	
 }
